@@ -1,0 +1,160 @@
+/*
+Purpose: basic style sheet for Web Project 2
+Author: Wei Yu
+
+Any additional Css formatting that you wish to add your web page shoukd be included within this external CSS file
+*/
+
+/* responsive image class */
+img.responsive {
+    max-width: 100%; /*allows the image to scale down if it has to, but it will not scale up in size to be larger than its original size */
+    height: auto;
+}
+
+/* adds 10 pixels of padding around the header and main elements, sets the width to 200% */
+header, main {
+    padding: 10px;
+    width: 100%;
+}
+
+/* adds 10 pixels of padding around the nav element and displays a 1 pixel solid balck border below the nav element, sets width to 100% */
+nav {
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    width: 100%;
+}
+
+/* adds 10 pixels of padding around the footer element and creates a 1 pixel solid black border above the footer, center the footer text, sets the width to 100% */
+footer {
+    padding: 10px;
+    border-top: 1px solid #100;
+    width: 100%;
+    text-align: center;
+    font-size: small;
+} 
+
+/* set a max-width on body */
+body {
+    max-width: 1080px;
+    margin: auto;
+    padding: 0;
+}
+
+/* configure the menu area */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: beige;
+}
+li {
+    float:left;
+    font-size: 15px;
+    color: black;
+    padding: 15px;
+    text-align: center;
+}
+
+h1,h2,h3 {
+    text-align: center;
+}
+
+/* zodiacanimals.html image tables css */
+div.introduction {
+    margin: 10px;
+    padding: 20px;
+    line-height: 1.5em;
+}
+
+div.animaltable {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    padding: 15px;
+    border: 1px solid #ff0000;
+    border-spacing: 0;
+}
+
+td {
+    padding: 2px;
+}
+
+/* foods.html images and blocks style */
+div.foods {
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid #000000;
+    max-height: 100%; /* allows block to respond to scale down with browser */
+    min-height: 280px; /* allows block to contains content when is in full-size */
+}
+
+img.dishes1 {
+    max-width: 100%; /*allows the image to scale down if it has to, but it will not scale up in size to be larger than its original size */
+    height: auto;
+    border: 1px solid #000000;
+    border-right: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    margin: 10px 10px 10px 10px;
+    float: right;
+}
+
+img.dishes2 {
+    max-width: 100%; /*allows the image to scale down if it has to, but it will not scale up in size to be larger than its original size */
+    height: auto;
+    border: 1px solid #000000;
+    border-right: 3px solid #000000;
+    border-bottom: 3px solid #000000;
+    margin: 10px 10px 10px 10px;
+    float: left;
+}
+
+/* css styles for tranditions.html in particular */
+div.trandcontent {
+    margin: 10px;
+    padding: 15px;
+}
+
+div.description {
+    text-align: center;
+    padding: 15px;
+}
+
+div.tranditionlist {
+    padding: 10px;
+}
+
+/* css styles for lanternfextival.html */
+figure {
+    border: 1px solid pink;
+    width: fit-content;
+    float: left;
+}
+
+figcaption {
+    text-align: center;
+    font-family: Papyrus, fantasy;
+}
+
+hr.break {
+    display: block;
+    border: 0px;
+    height: 10px;
+    background-image: url('images/lantern_break.jpeg');
+}
+
+div.riddle {
+    margin: 15px;
+    padding: 20px;
+    border: 2px;
+    background-color: #d1d1d1;
+}
+
+/* APIframe to embed a youtube video in lanternfestival.html */
+#player {
+    margin: auto;
+    border: 3px solid #333;
+    padding: 10px;
+  }
